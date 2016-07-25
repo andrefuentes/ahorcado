@@ -1,3 +1,4 @@
+import random
 lista=[
 "aaronita"
 "aaronico"
@@ -1078,3 +1079,8 @@ lista=[
 "acidificar"
 "acidimetria"
 ]
+palabra=random.choice(palabra)
+print(palabra)
+espacios=len(palbra)*"_"
+print (espacios)
+
