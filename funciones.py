@@ -1,4 +1,6 @@
-
+guiones=[]
+gano=false
+v=0
 letra=input("ingrese una letra")
 for i in range(len(palabra)):
 		guion[i]=letra
