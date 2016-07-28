@@ -1079,8 +1079,27 @@ lista=[
 "acidificar",
 "acidimetria",
 ]
+
 palabra=random.choice(lista)
 print(palabra)
-turno=1
+print "( _________ )"
+print"|"
+print"|"
+print"|"
+print"|"
+letra=input("ingrese una letra")
+	for i in range(len(palabra)):
+		guion[i]=letra
+		palabra[i]=letra	
 espacios=len(palabra)*"_"
 print (espacios)
+	cuerpo=[(),"|","/ \"", ]
+	while intentos !=0:
+	guiones[]
+	if letra=palabra:
+		print"letra"
+		elif letra not in palabra:
+			print cuerpo(0)
+	for letra in palabra:
+		print(guiones)
+		intentos=intentos-1
