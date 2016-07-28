@@ -1,6 +1,6 @@
 
 
-while j= "si":
+while j != "si":
 	w=palabra
 	pal=list(w)
 	guiones=[]
@@ -11,14 +11,12 @@ while j= "si":
 		guiones.append( " _ ")
 while gano != "si" and gano != "no":
 	print(" " join(guiones))
-	l=input()
 letra=input("ingrese una letra")
 for i in range(len(palabra)):
 		guion[i]=letra
 		palabra[i]=letra	
 espacios=len(palabra)*"_"
 print (espacios)
-
 if letra=palabra:
 		print"letra"
 		elif letra not in palabra:
